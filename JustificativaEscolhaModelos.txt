@@ -1,0 +1,7 @@
+1. Extração de Características
+	Indique qual modelo dá o melhor o resultado e a métrica utilizada:
+		O melhor modelo é o SVM usando features VGG, pois apresenta o maior F1-score ponderado (0.804) e também a maior acurácia (0.814) entre todos os modelos testados.
+
+2. Redes Neurais	
+	Indique qual modelo dá o melhor o resultado e a métrica utilizada:
+		O ResNet50 se mostra melhor que a VGG16 (tanto com ou sem Data Augmentation), pois apresenta o maior F1-score ponderado (0.827) e também a maior acurácia (0.825) comparado ao VGG16. Isso ocorre devido à sua arquitetura mais profunda e eficiente, que utiliza blocos residuais para facilitar o treinamento de redes muito profundas sem o problema de vanishing gradients permitindo que o modelo aprenda representações mais complexas e discriminativas das imagens, capturando padrões sutis que a VGG16 tende a perder.
