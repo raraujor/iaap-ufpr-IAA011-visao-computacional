@@ -1,4 +1,4 @@
-# IAA011 Visão Computaciona
+# IAA011 Visão Computacional
 
 ## Equipe 03
 -	Gustavo Costa de Souza
